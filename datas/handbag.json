@@ -1,0 +1,190 @@
+{
+  "handbag": {
+    "color": {
+      "text": "颜色",
+      "blocks": [
+        {
+          "isDisabled": false,
+          "text": "所有颜色",
+          "pvid": "",
+          "isSelected": true,
+          "sortNo": 0,
+          "groupid": "",
+          "type": ""
+        },
+        {
+          "isDisabled": false,
+          "text": "蓝色",
+          "pvid": "15-107",
+          "isSelected": false,
+          "sortNo": 1,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "粉色",
+          "pvid": "15-110",
+          "isSelected": false,
+          "sortNo": 2,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "绿色",
+          "pvid": "15-123",
+          "isSelected": false,
+          "sortNo": 5,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "红色",
+          "pvid": "15-145",
+          "isSelected": false,
+          "sortNo": 8,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "酒红色",
+          "pvid": "15-150",
+          "isSelected": false,
+          "sortNo": 9,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "白色",
+          "pvid": "15-200",
+          "isSelected": false,
+          "sortNo": 10,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "棕色",
+          "pvid": "15-201",
+          "isSelected": false,
+          "sortNo": 11,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "灰色",
+          "pvid": "15-242",
+          "isSelected": false,
+          "sortNo": 14,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "米色",
+          "pvid": "15-279",
+          "isSelected": false,
+          "sortNo": 20,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "黑色",
+          "pvid": "15-102",
+          "isSelected": false,
+          "sortNo": 22,
+          "groupid": "15",
+          "type": "p15"
+        },
+        {
+          "isDisabled": false,
+          "text": "中性",
+          "pvid": "15-904",
+          "isSelected": false,
+          "sortNo": 27,
+          "groupid": "15",
+          "type": "p15"
+        }
+      ],
+      "isOpen": false
+    },
+    "newFilterItem": {
+      "isDisabled": false,
+      "text": "",
+      "pvid": "",
+      "isSelected": false,
+      "sortNo": 0,
+      "groupid": "",
+      "type": ""
+    },
+    "extraData": {},
+    "material": {
+      "text": "材质",
+      "blocks": [
+        {
+          "isDisabled": false,
+          "text": "所有材质",
+          "pvid": "",
+          "isSelected": true,
+          "sortNo": 0,
+          "groupid": "",
+          "type": ""
+        },
+        {
+          "isDisabled": false,
+          "text": "所有真皮",
+          "pvid": "12-136",
+          "isSelected": false,
+          "sortNo": 5,
+          "groupid": "12",
+          "type": "p12"
+        },
+        {
+          "isDisabled": false,
+          "text": "GG 帆布织物",
+          "pvid": "12-146",
+          "isSelected": false,
+          "sortNo": 8,
+          "groupid": "12",
+          "type": "p12"
+        },
+        {
+          "isDisabled": false,
+          "text": "稀有皮",
+          "pvid": "12-570",
+          "isSelected": false,
+          "sortNo": 33,
+          "groupid": "12",
+          "type": "p12"
+        },
+        {
+          "isDisabled": false,
+          "text": "其他材质",
+          "pvid": "12-1058",
+          "isSelected": false,
+          "sortNo": 39,
+          "groupid": "12",
+          "type": "p12"
+        },
+        {
+          "isDisabled": false,
+          "text": "无金属鞣革\n",
+          "pvid": "12-1163",
+          "isSelected": false,
+          "sortNo": 45,
+          "groupid": "12",
+          "type": "p12"
+        }
+      ],
+      "isOpen": false
+    },
+    "size": { "text": "", "blocks": [], "isOpen": false },
+    "newFilterGroup": { "text": "", "blocks": [], "isOpen": false }
+  }
+}
