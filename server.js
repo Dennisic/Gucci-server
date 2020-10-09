@@ -37,6 +37,18 @@ router.get("/getFlowerDream", (ctx, next) => {
   ctx.body = flowerDream;
 });
 
+//注册
+const regis = require("./datas/regis.json");
+router.post("/getRegis", (ctx, next) => {
+  ctx.body = regis;
+});
+
+//登陆
+const login = require("./datas/login.json");
+router.post("/getLogin", (ctx, next) => {
+  ctx.body = login;
+});
+
 //商品详情
 //搜索
 const search = require("./datas/search.json");
@@ -50,15 +62,13 @@ router.get("/getHandbagDatas", (ctx, next) => {
   ctx.body = handbagDatas;
 });
 
-//登陆注册
-const login = require("./datas/login.json");
-router.post("getLogin", (ctx, next) => {});
+//购物车订单与结算
 
 //2.运行并监听服务器
 app.listen(3000, (error) => {
   if (error) {
     console.log("启动服务器失败");
   } else {
-    console.log("服务器启动成功,启动与http://localhost:3000上");
+    console.log("服务器启动成功,启动与http://localhost:3000");
   }
 });
