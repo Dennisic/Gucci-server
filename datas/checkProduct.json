@@ -1,0 +1,13 @@
+{
+  "checkProduct": {
+    "skuShopInventory": true,
+    "isInWish": false,
+    "sketch": "有货",
+    "offOutStock": false,
+    "description": "预计发货后2-4个工作日送达",
+    "skuId": 15189,
+    "cannot_buy": false,
+    "onLineInventory": true,
+    "arrivalNoticeFlag": true
+  }
+}

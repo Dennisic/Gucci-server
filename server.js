@@ -50,6 +50,12 @@ router.post("/getLogin", (ctx, next) => {
 });
 
 //商品详情
+//商品
+const cart = require("./datas/cart.json");
+router.get("/getCart", (ctx, next) => {
+  ctx.body = cart;
+});
+
 //搜索
 const search = require("./datas/search.json");
 router.get("/getSearch", (ctx, next) => {
@@ -62,7 +68,35 @@ router.get("/getHandbagDatas", (ctx, next) => {
   ctx.body = handbagDatas;
 });
 
-//购物车订单与结算
+//点击商品查看属性(是否有货等)
+const checkProduct = require("./datas/checkProduct.json");
+router.get("/getCheckProduct", (ctx, next) => {
+  ctx.body = checkProduct;
+});
+
+//商品详情信息等
+const alsoLikeList = require("./datas/alsoLikeList.json");
+router.get("/getAlsoLikeList", (ctx, next) => {
+  ctx.body = alsoLikeList;
+});
+
+//购物车
+const cartList = require("./datas/cartList.json");
+router.post("/getCartList", (ctx, next) => {
+  ctx.body = cartList;
+});
+
+//订单
+const order = require("./datas/order.json");
+router.get("/getOrder", (ctx, next) => {
+  ctx.body = order;
+});
+
+//支付
+const pay = require("./datas/pay.json");
+router.get("/getPay", (ctx, next) => {
+  ctx.body = pay;
+});
 
 //2.运行并监听服务器
 app.listen(3000, (error) => {
